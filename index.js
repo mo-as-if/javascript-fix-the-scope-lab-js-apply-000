@@ -4,8 +4,7 @@ function myAnimal() {
   // You should not need to modify this function
   return animal
 }
-yourAnimal = 'cat'
-yourAnimal = animal
+
 function yourAnimal() {
   // The tests expect this function to return `animal` just like the previous function
   // However, you cannot simply modify the existing variable declared on line 1 in the global scope
@@ -16,10 +15,11 @@ function yourAnimal() {
 }
 
 function add2(n) {
+const two = 2
   return n + two
 
   // Feel free to move things around!
-  const two = 2
+
 }
 
 var funkyFunction = function() {
