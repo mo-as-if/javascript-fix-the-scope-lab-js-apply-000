@@ -4,7 +4,7 @@ function myAnimal() {
   // You should not need to modify this function
   return animal
 }
-yourAnimal = 'cat' 
+yourAnimal = 'cat'
 yourAnimal = animal
 function yourAnimal() {
   // The tests expect this function to return `animal` just like the previous function
